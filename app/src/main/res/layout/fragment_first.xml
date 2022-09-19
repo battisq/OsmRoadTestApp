@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".FirstFragment">
+
+    <TextView
+        android:id="@+id/textview_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/hello_first_fragment" />
+
+    <Button
+        android:id="@+id/button_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/next" />
+
+    <com.battisq.testcustomview.sudoku.view.SudokuCellView
+        android:id="@+id/sudokuCellView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:scvInternalPadding="2dp"
+        app:scvNotedNumberColor="@android:color/darker_gray"
+        app:scvNotedNumberSize="22dp"
+        app:scvSolutionNumberColor="@android:color/holo_blue_bright"
+        app:scvSolutionNumberSize="40dp" />
+</LinearLayout>

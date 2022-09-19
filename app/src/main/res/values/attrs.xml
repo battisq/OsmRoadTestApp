@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SudokuCellView">
+        <attr name="scvSolutionNumberSize" format="dimension" />
+        <attr name="scvNotedNumberSize" format="dimension" />
+        <attr name="scvSolutionNumberColor" format="color"/>
+        <attr name="scvNotedNumberColor" format="color"/>
+        <attr name="scvInternalPadding" format="dimension"/>
+    </declare-styleable>
+</resources>
