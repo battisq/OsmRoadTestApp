@@ -1,6 +1,5 @@
 package com.battisq.testcustomview.sudoku.view
 
-import android.content.AttributionSource
 import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Color
